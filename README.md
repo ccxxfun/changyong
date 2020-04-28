@@ -25,14 +25,15 @@
 # 3、一键更换Linux软件源脚本
      wget  git.io/superupdate.sh
      bash superupdate.sh
-     
-     
-#4、一键卸载阿里云安全监控/云盾/安骑士
-     curl -sSL http://update.aegis.aliyun.com/download/quartz_uninstall.sh | sudo bash
+
+
+# 4、一键卸载阿里云安全监控/云盾/安骑士
+>      curl -sSL http://update.aegis.aliyun.com/download/quartz_uninstall.sh | sudo bash
      sudo rm -rf /usr/local/aegis
      sudo rm /usr/sbin/aliyun-service
      sudo rm /lib/systemd/system/aliyun.service
-     
+
+
  #屏蔽阿里云IP
 >      iptables -I INPUT -s 140.205.201.0/24 -j DROP
      iptables -I INPUT -s 140.205.225.0/24 -j DROP
