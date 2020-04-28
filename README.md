@@ -43,7 +43,7 @@
 >       curl -sSL https://raw.githubusercontent.com/ccxxfun/changyong/uninstal_qcloud.sh | sudo bash
 
 
-6、一键启用SSH密匙登录
+#  6、一键启用SSH密匙登录
 >     wget https://raw.githubusercontent.com/Chiakge/SSHKEY_Installer/master/key.sh --no-check-certificate&& bash key.sh [ccxxfun]
 
 
