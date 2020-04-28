@@ -1,4 +1,4 @@
-1、安装BBR
+# 1、安装BBR
 
     wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
     chmod +x tcp.sh
@@ -8,7 +8,7 @@
 
     ./tcp.sh
 
-2、加入在线监控
+# 2、加入在线监控
 
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/status.sh && chmod +x status.sh
 
@@ -23,12 +23,12 @@
     
     
 # 3、一键更换Linux软件源脚本
->      wget  git.io/superupdate.sh
+     wget  git.io/superupdate.sh
      bash superupdate.sh
      
      
 #4、一键卸载阿里云安全监控/云盾/安骑士
- >      curl -sSL http://update.aegis.aliyun.com/download/quartz_uninstall.sh | sudo bash
+     curl -sSL http://update.aegis.aliyun.com/download/quartz_uninstall.sh | sudo bash
      sudo rm -rf /usr/local/aegis
      sudo rm /usr/sbin/aliyun-service
      sudo rm /lib/systemd/system/aliyun.service
@@ -38,6 +38,6 @@
      iptables -I INPUT -s 140.205.225.0/24 -j DROP
      service iptables save
      
- 5、卸载腾讯云镜
->      curl -sSL https://raw.githubusercontent.com/ccxxfun/changyong/Script/uninstal_qcloud.sh | sudo bash
+#  5、卸载腾讯云镜
+>       curl -sSL https://raw.githubusercontent.com/ccxxfun/changyong/Script/uninstal_qcloud.sh | sudo bash
 
