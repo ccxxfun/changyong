@@ -16,7 +16,6 @@
 
     bash status.sh c
 
- 
 #显示服务端管理菜单
 
     bash status.sh s
@@ -39,6 +38,12 @@
      iptables -I INPUT -s 140.205.225.0/24 -j DROP
      service iptables save
      
+	 
 #  5、卸载腾讯云镜
 >       curl -sSL https://raw.githubusercontent.com/ccxxfun/changyong/uninstal_qcloud.sh | sudo bash
+
+
+6、一键启用SSH密匙登录
+> wget https://raw.githubusercontent.com/Chiakge/SSHKEY_Installer/master/key.sh --no-check-certificate&& bash key.sh [ccxxfun]
+
 
