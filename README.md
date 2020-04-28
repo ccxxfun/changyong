@@ -40,5 +40,5 @@
      service iptables save
      
 #  5、卸载腾讯云镜
->       curl -sSL https://raw.githubusercontent.com/ccxxfun/changyong/Script/uninstal_qcloud.sh | sudo bash
+>       curl -sSL https://raw.githubusercontent.com/ccxxfun/changyong/uninstal_qcloud.sh | sudo bash
 
