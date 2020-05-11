@@ -23,7 +23,7 @@
     
 # 3、一键更换Linux软件源脚本
      wget  git.io/superupdate.sh
-     bash superupdate.sh
+     bash superupdate.sh aliyun
 
 
 # 4、一键卸载阿里云安全监控/云盾/安骑士
