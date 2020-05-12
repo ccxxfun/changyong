@@ -55,4 +55,4 @@
 https://github.com/iovxw/rssbot
 >     wget https://github.com/iovxw/rssbot/releases/download/v2.0.0-alpha.5/rssbot-amd64-linux
 >     chmod +x rssbot-amd64-linux
->     nohup rssbot-amd64-linux <跟上bot密匙在botfather申请>
+>     nohup ./rssbot-amd64-linux <跟上bot密匙在botfather申请>
