@@ -70,3 +70,6 @@ https://github.com/iovxw/rssbot
 
 >   wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest/master/test.sh && bash test.sh -i "io,bandwidth,chinabw,download,traceroute,backtraceroute,allping" -u
 
+#  11、LemonBench一键跑分脚本
+
+>  wget https://github.com/LemonBench/LemonBench/raw/master/LemonBench.sh | bash LemonBench.sh --fast
