@@ -78,7 +78,7 @@ https://github.com/iovxw/rssbot
       wget https://github.com/LemonBench/LemonBench/raw/master/LemonBench.sh | bash LemonBench.sh --fast
 
 
-#  12、nanqinlang回程网络测试testrace
+#  12、besttrace回程网络测试
 
-     wget https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh
-     bash testrace.sh
+     wget -qO- git.io/besttrace | bash
+
