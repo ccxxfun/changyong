@@ -56,3 +56,17 @@ https://github.com/iovxw/rssbot
 >     wget https://github.com/iovxw/rssbot/releases/download/v2.0.0-alpha.5/rssbot-amd64-linux
 >     chmod +x rssbot-amd64-linux
 >     nohup ./rssbot-amd64-linux <跟上bot密匙在botfather申请>
+
+
+#  8、秋水逸冰Teddysun UnixBench跑分测试脚本
+
+>     wget -qO- bench.sh | bash
+
+#  9、oldking SuperBench.sh 跑分脚本
+
+>    wget -qO- git.io/superbench.sh | bash
+
+#  10、91yuntest 一键跑分脚本
+
+>   wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/91yuntest/master/test.sh && bash test.sh -i "io,bandwidth,chinabw,download,traceroute,backtraceroute,allping" -u
+
