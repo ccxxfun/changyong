@@ -57,7 +57,6 @@ https://github.com/iovxw/rssbot
      chmod +x rssbot-amd64-linux
      nohup ./rssbot-amd64-linux <跟上bot密匙在botfather申请>
 
-
 #  8、秋水逸冰Teddysun UnixBench跑分测试脚本
 
      wget -qO- bench.sh | bash
