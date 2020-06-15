@@ -73,3 +73,9 @@ https://github.com/iovxw/rssbot
 #  11、LemonBench一键跑分脚本
 
 >  wget https://github.com/LemonBench/LemonBench/raw/master/LemonBench.sh | bash LemonBench.sh --fast
+
+
+#  12、nanqinlang回程网络测试testrace
+
+>  wget https://raw.githubusercontent.com/nanqinlang-script/testrace/master/testrace.sh
+>  bash testrace.sh
