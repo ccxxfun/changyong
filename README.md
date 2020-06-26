@@ -65,7 +65,7 @@ https://github.com/iovxw/rssbot
 
 #  9、oldking SuperBench.sh 跑分脚本
 
-     wget -qO- git.io/superbench.sh | bash
+     wget -qO- sb.oldking.net | bash
 
 
 #  10、91yuntest 一键跑分脚本
