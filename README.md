@@ -30,18 +30,32 @@
 
 
 # 4、一键卸载阿里云安全监控/云盾/安骑士
-     curl -sSL http://update.aegis.aliyun.com/download/quartz_uninstall.sh | sudo bash
-     sudo rm -rf /usr/local/aegis
-     sudo rm /usr/sbin/aliyun-service
-     sudo rm /lib/systemd/system/aliyun.service
+     第一、关闭开机启动
+     service aegis stop #停止服务
+     chkconfig --del aegis # 删除服务
+     第二、卸载安骑士
+     wget http://update.aegis.aliyun.com/download/uninstall.sh
+     sh uninstall.sh
+     wget http://update.aegis.aliyun.com/download/quartz_uninstall.sh
+     sh quartz_uninstall.sh
 
+     pkill aliyun-service
+     rm -fr /etc/init.d/agentwatch /usr/sbin/aliyun-service
+     rm -rf /usr/local/aegis*
 
- #屏蔽阿里云IP
-     iptables -I INPUT -s 140.205.201.0/24 -j DROP
-     iptables -I INPUT -s 140.205.225.0/24 -j DROP
-     service iptables save
-     
-	 
+     第三、屏蔽阿里云盾的IP地址
+     iptables -I INPUT -s 140.205.201.0/28 -j DROP
+     iptables -I INPUT -s 140.205.201.16/29 -j DROP
+     iptables -I INPUT -s 140.205.201.32/28 -j DROP
+     iptables -I INPUT -s 140.205.225.192/29 -j DROP
+     iptables -I INPUT -s 140.205.225.200/30 -j DROP
+     iptables -I INPUT -s 140.205.225.184/29 -j DROP
+     iptables -I INPUT -s 140.205.225.183/32 -j DROP
+     iptables -I INPUT -s 140.205.225.206/32 -j DROP
+     iptables -I INPUT -s 140.205.225.205/32 -j DROP
+     iptables -I INPUT -s 140.205.225.195/32 -j DROP
+     iptables -I INPUT -s 140.205.225.204/32 -j DROP
+
 #  5、卸载腾讯云镜
      curl -sSL https://raw.githubusercontent.com/ccxxfun/changyong/uninstal_qcloud.sh | sudo bash
 
