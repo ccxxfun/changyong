@@ -95,4 +95,9 @@ https://github.com/iovxw/rssbot
 #  12、besttrace回程网络测试
 
      wget -qO- git.io/besttrace | bash
+     
+ #  13、Superspeed.sh三大运营商全面测速
+
+     bash <(curl -Lso- https://git.io/superspeed)
+  
 
