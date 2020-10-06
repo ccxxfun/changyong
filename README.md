@@ -57,7 +57,7 @@
      iptables -I INPUT -s 140.205.225.204/32 -j DROP
 
 #  5、卸载腾讯云镜
-     curl -sSL https://raw.githubusercontent.com/ccxxfun/changyong/uninstal_qcloud.sh | sudo bash
+     wget -qO- https://raw.githubusercontent.com/littleplus/TencentAgentRemove/master/remove.sh | bash
 
 
 #  6、一键启用SSH密匙登录
