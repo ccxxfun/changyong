@@ -10,9 +10,8 @@
 
 # 2、加入在线监控
 
-curl -L https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -o nezha.sh && chmod +x nezha.sh
-
-bash nezha.sh
+    curl -L https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -o nezha.sh && chmod +x nezha.sh
+    bash nezha.sh
     
     
 # 3、一键更换Linux软件源脚本
