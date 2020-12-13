@@ -10,15 +10,9 @@
 
 # 2、加入在线监控
 
-    wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/status.sh && chmod +x status.sh
+curl -L https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -o nezha.sh && chmod +x nezha.sh
 
-#显示客户端管理菜单
-
-    bash status.sh c
-
-#显示服务端管理菜单
-
-    bash status.sh s
+bash nezha.sh
     
     
 # 3、一键更换Linux软件源脚本
