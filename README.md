@@ -60,9 +60,10 @@
 #  7、快速安装Telegram机器人rssbot
 https://github.com/iovxw/rssbot
      
-     wget https://github.com/iovxw/rssbot/releases/download/v2.0.0-alpha.5/rssbot-amd64-linux
-     chmod +x rssbot-amd64-linux
-     nohup ./rssbot-amd64-linux <跟上bot密匙在botfather申请>
+     https://github.com/iovxw/rssbot/releases/download/v2.0.0-alpha.9/rssbot-zh-amd64-linux
+     chmod +x rssbot-zh-amd64-linux
+     screen -S rssbot
+    ./rssbot-zh-amd64-linux <跟上bot密匙在botfather申请>
 
 
 #  8、秋水逸冰Teddysun UnixBench跑分测试脚本
