@@ -110,12 +110,12 @@ https://github.com/iovxw/rssbot
 
 7.去除面板日志与网站绑定域名上报
 
-     wget -O optimize.sh http://f.cccyun.cc/bt/optimize.sh && bash optimize.sh
+     wget -O bt77_optimize.sh https://github.com/ccxxfun/changyong/blob/master/bt77_optimize.sh && bash bt77_optimize.sh
      
 全部使用补丁的方式，而不是替换文件的方式，方便后续升级版本的修改。
   
    
    适用宝塔面板7.9版本的命令（7.9版本不支持去除强制绑定账号，新增去除面板首页广告）：
     
-    wget -O optimize.sh http://f.cccyun.cc/bt/optimize_new.sh && bash optimize.sh
+    wget -O bt79_optimize.sh https://github.com/ccxxfun/changyong/blob/master/bt79_optimize.sh && bash bt79_optimize.sh
 
