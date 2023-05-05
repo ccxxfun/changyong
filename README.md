@@ -122,11 +122,11 @@ https://github.com/iovxw/rssbot
 
 #  14、arkecx DDwindows教程
 
-1.wget -qO- 1keydd.com/inst.sh|bash -s - -d进入vnc调试模式
-2，在里面运行ip addr del 129.227.38.111/27 dev ens3，把错误的网络配置删掉
-3，运行ip addr addr 129.227.38.111/27  broadcast 129.227.38.159 scope global dev ens3，把正确的网络配置加上
-4，运行ip route add default via 129.227.44.97 dev ens3 onlink，修正路由
-5，测试网络:ping -5 google.com，如果通的，就可以dd了
-6. wget -qO- http://tutu.ovh/iso/windows/dd-5kge/win10ltsc_password_1keydd.gz|gunzip -dc|dd of=/dev/vda bs=10M status=progress
+     1.wget -qO- 1keydd.com/inst.sh|bash -s - -d进入vnc调试模式
+     2，在里面运行ip addr del 129.227.38.111/27 dev ens3，把错误的网络配置删掉
+     3，运行ip addr addr 129.227.38.111/27  broadcast 129.227.38.159 scope global dev ens3，把正确的网络配置加上
+     4，运行ip route add default via 129.227.44.97 dev ens3 onlink，修正路由
+     5，测试网络:ping -5 google.com，如果通的，就可以dd了
+     6. wget -qO- http://tutu.ovh/iso/windows/dd-5kge/win10ltsc_password_1keydd.gz|gunzip -dc|dd of=/dev/vda bs=10M status=progress
 
 
